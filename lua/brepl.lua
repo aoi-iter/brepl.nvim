@@ -12,6 +12,10 @@ M.config = {
             separator = "//%s*%%",
             cmd = "node"
         },
+        haskell = {
+            separator = "--%s*%%",
+            cmd = "ghci"
+        },
     }
 }
 
